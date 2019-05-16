@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1418303637132" name="duplicate:http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender" uri="frx%20-%20Copy.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1418303637132" name="duplicate:http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender" uri="frx.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1418303637132" name="duplicate:http://www.semanticweb.org/tinsae/ontologies/2014/8/untitled-ontology-4" uri="frnnn.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1418303637132" name="duplicate:http://www.semanticweb.org/tinsae/ontologies/2014/8/untitled-ontology-4" uri="fronto.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1418303637132" name="duplicate:http://www.semanticweb.org/tinsae/ontologies/2014/8/untitled-ontology-4" uri="fr_nat.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1418303637132" name="duplicate:http://www.semanticweb.org/tinsae/ontologies/2014/8/untitled-ontology-4" uri="fr_soc.owl"/>
+    </group>
+</catalog>

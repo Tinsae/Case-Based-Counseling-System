@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY fieldrecommender "http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#"
+     xml:base="http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender"
+     xmlns:fieldrecommender="http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Social_Science -->
+
+    <owl:AnnotationProperty rdf:about="&fieldrecommender;Social_Science">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Agriculture_and_Natural_Resource_Science -->
+
+    <owl:Class rdf:about="&fieldrecommender;Agriculture_and_Natural_Resource_Science">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Natural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Business_Subject -->
+
+    <owl:Class rdf:about="&fieldrecommender;Business_Subject">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Social_Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Business_and_Economics -->
+
+    <owl:Class rdf:about="&fieldrecommender;Business_and_Economics">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Complex_Problem_Solving_Skills -->
+
+    <owl:Class rdf:about="&fieldrecommender;Complex_Problem_Solving_Skills">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Engineering_and_Technology -->
+
+    <owl:Class rdf:about="&fieldrecommender;Engineering_and_Technology">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Natural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Field -->
+
+    <owl:Class rdf:about="&fieldrecommender;Field"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Language_Subject -->
+
+    <owl:Class rdf:about="&fieldrecommender;Language_Subject">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Medicine_and_Health_Sciences -->
+
+    <owl:Class rdf:about="&fieldrecommender;Medicine_and_Health_Sciences">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Natural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Natural -->
+
+    <owl:Class rdf:about="&fieldrecommender;Natural">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Field"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Natural_Sciences_Subject -->
+
+    <owl:Class rdf:about="&fieldrecommender;Natural_Sciences_Subject">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Natural_Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Natural_Subject -->
+
+    <owl:Class rdf:about="&fieldrecommender;Natural_Subject">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Natural_and_Computational_Sciences -->
+
+    <owl:Class rdf:about="&fieldrecommender;Natural_and_Computational_Sciences">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Natural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Resource_Management_Skills -->
+
+    <owl:Class rdf:about="&fieldrecommender;Resource_Management_Skills">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Skill -->
+
+    <owl:Class rdf:about="&fieldrecommender;Skill"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Social -->
+
+    <owl:Class rdf:about="&fieldrecommender;Social">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Field"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Social_Science_and_Humanities -->
+
+    <owl:Class rdf:about="&fieldrecommender;Social_Science_and_Humanities">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Social_Sciences_Subject -->
+
+    <owl:Class rdf:about="&fieldrecommender;Social_Sciences_Subject">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Social_Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Social_Skills -->
+
+    <owl:Class rdf:about="&fieldrecommender;Social_Skills">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Social_Subject -->
+
+    <owl:Class rdf:about="&fieldrecommender;Social_Subject">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Subject -->
+
+    <owl:Class rdf:about="&fieldrecommender;Subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Systems_Skills -->
+
+    <owl:Class rdf:about="&fieldrecommender;Systems_Skills">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Technical_Skills -->
+
+    <owl:Class rdf:about="&fieldrecommender;Technical_Skills">
+        <rdfs:subClassOf rdf:resource="&fieldrecommender;Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#AFAN_OROMO_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;AFAN_OROMO_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Language_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#AGRICULTURAL_SCIENCES -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;AGRICULTURAL_SCIENCES">
+        <rdf:type rdf:resource="&fieldrecommender;Agriculture_and_Natural_Resource_Science"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#AMHARIC_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;AMHARIC_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Language_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#APTITUDE_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;APTITUDE_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#BIOLOGY_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;BIOLOGY_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Natural_Sciences_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#BUSINESS -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;BUSINESS">
+        <rdf:type rdf:resource="&fieldrecommender;Business_and_Economics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#BUSINESS_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;BUSINESS_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Business_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#CHEMISTRY_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;CHEMISTRY_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Natural_Sciences_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#CIVIC_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;CIVIC_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#COMPUTER_SCIENCES -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;COMPUTER_SCIENCES">
+        <rdf:type rdf:resource="&fieldrecommender;Engineering_and_Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Complex_Problem_Solving -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Complex_Problem_Solving">
+        <rdf:type rdf:resource="&fieldrecommender;Complex_Problem_Solving_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Coordination -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Coordination">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#DENTAL_MEDICINE -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;DENTAL_MEDICINE">
+        <rdf:type rdf:resource="&fieldrecommender;Medicine_and_Health_Sciences"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#ECONOMICS_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;ECONOMICS_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Business_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#ENGINEERING_SCIENCES -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;ENGINEERING_SCIENCES">
+        <rdf:type rdf:resource="&fieldrecommender;Engineering_and_Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#ENGLISH_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;ENGLISH_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Language_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Equipment_Maintenance -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Equipment_Maintenance">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Equipment_Selection -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Equipment_Selection">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#GEOGRAPHY_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;GEOGRAPHY_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Sciences_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#HEALTH_SCIENCES -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;HEALTH_SCIENCES">
+        <rdf:type rdf:resource="&fieldrecommender;Medicine_and_Health_Sciences"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#HISTORY_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;HISTORY_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Sciences_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#IT_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;IT_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Installation -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Installation">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Instructing -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Instructing">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Judgement_and_Decision_Making -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Judgement_and_Decision_Making">
+        <rdf:type rdf:resource="&fieldrecommender;Systems_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#LAW -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;LAW">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Science_and_Humanities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#MATHS_NATURAL_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;MATHS_NATURAL_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Natural_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#MATHS_SOCIAL_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;MATHS_SOCIAL_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#MEDICINE -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;MEDICINE">
+        <rdf:type rdf:resource="&fieldrecommender;Medicine_and_Health_Sciences"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Management_of_Financial_Resources -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Management_of_Financial_Resources">
+        <rdf:type rdf:resource="&fieldrecommender;Resource_Management_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Management_of_Material_Resources -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Management_of_Material_Resources">
+        <rdf:type rdf:resource="&fieldrecommender;Resource_Management_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Management_of_Personnel_Resources -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Management_of_Personnel_Resources">
+        <rdf:type rdf:resource="&fieldrecommender;Resource_Management_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#NATURAL_SCIENCES -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;NATURAL_SCIENCES">
+        <rdf:type rdf:resource="&fieldrecommender;Natural_and_Computational_Sciences"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#NONE -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;NONE">
+        <rdf:type rdf:resource="&fieldrecommender;Field"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Negotiation -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Negotiation">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#None -->
+
+    <owl:Thing rdf:about="&fieldrecommender;None">
+        <rdf:type rdf:resource="&fieldrecommender;Skill"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#OTHER_LANGUAGE_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;OTHER_LANGUAGE_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Language_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Operation_Monitoring -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Operation_Monitoring">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Operation_and_Control -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Operation_and_Control">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Operations_Analysis -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Operations_Analysis">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#PHYSICAL_EDUCATION_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;PHYSICAL_EDUCATION_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#PHYSICS_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;PHYSICS_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Natural_Sciences_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#PUBLIC_HEALTH_OFFICER -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;PUBLIC_HEALTH_OFFICER">
+        <rdf:type rdf:resource="&fieldrecommender;Medicine_and_Health_Sciences"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Persuation -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Persuation">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Programming -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Programming">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Quality_Control_Analysis -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Quality_Control_Analysis">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Repairing -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Repairing">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#SOCIAL_SCIENCES -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;SOCIAL_SCIENCES">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Science_and_Humanities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Service_Orientation -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Service_Orientation">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Social_Perspectiveness -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Social_Perspectiveness">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Systems_Analysis -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Systems_Analysis">
+        <rdf:type rdf:resource="&fieldrecommender;Systems_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Systems_Evaluation -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Systems_Evaluation">
+        <rdf:type rdf:resource="&fieldrecommender;Systems_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#TECHNICAL_DRAWING_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;TECHNICAL_DRAWING_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Natural_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#TEXTILE_TECHNOLOGY -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;TEXTILE_TECHNOLOGY">
+        <rdf:type rdf:resource="&fieldrecommender;Engineering_and_Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#THEATRICAL_FINE_ARTS_AND_MUSIC -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;THEATRICAL_FINE_ARTS_AND_MUSIC">
+        <rdf:type rdf:resource="&fieldrecommender;Social_Science_and_Humanities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#TIGRIGNA_SUBJECT -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;TIGRIGNA_SUBJECT">
+        <rdf:type rdf:resource="&fieldrecommender;Language_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Technology_Design -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Technology_Design">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Time_Management -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Time_Management">
+        <rdf:type rdf:resource="&fieldrecommender;Resource_Management_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#Troubleshooting -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;Troubleshooting">
+        <rdf:type rdf:resource="&fieldrecommender;Technical_Skills"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tinsae/ontologies/2014/8/fieldrecommender#VETERNARY_MEDICINE -->
+
+    <owl:NamedIndividual rdf:about="&fieldrecommender;VETERNARY_MEDICINE">
+        <rdf:type rdf:resource="&fieldrecommender;Agriculture_and_Natural_Resource_Science"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false">
+<class name="tiCBR.StudCaseDescription" table="casebase">
+
+	<id name="caseId" column="caseId"/>
+	
+	<property name="Stream" column="Stream"/>
+	
+	<property name="Duration" column="Duration"/>
+	
+	<property name="BackgroundInterest" column="BackgroundInterest">
+		<type name="jcolibri.connector.databaseutils.GenericUserType">
+			<param name="className">jcolibri.datatypes.Instance</param>
+		</type>
+	</property>
+	
+	<property name="FamilyInterest" column="FamilyInterest">
+		<type name="jcolibri.connector.databaseutils.GenericUserType">
+			<param name="className">jcolibri.datatypes.Instance</param>
+		</type>
+	</property>
+	<property name="EntranceResult" column="EntranceResult"/>
+	
+	
+<property name="EntranceTop" column="EntranceTop">
+		<type name="jcolibri.connector.databaseutils.GenericUserType">
+			<param name="className">jcolibri.datatypes.Instance</param>
+		</type>
+	</property>
+	
+		<property name="Preparatory1st" column="Preparatory1st">
+		<type name="jcolibri.connector.databaseutils.GenericUserType">
+			<param name="className">jcolibri.datatypes.Instance</param>
+		</type>
+	</property>
+	
+	
+	<property name="Preparatory2nd" column="Preparatory2nd">
+		<type name="jcolibri.connector.databaseutils.GenericUserType">
+			<param name="className">jcolibri.datatypes.Instance</param>
+		</type>
+	</property>
+	
+<property name="SpecialSkill" column="SpecialSkill">
+		<type name="jcolibri.connector.databaseutils.GenericUserType">
+			<param name="className">jcolibri.datatypes.Instance</param>
+		</type>
+	</property>
+	    
+	
+	<property name="PastExperience" column="PastExperience">
+		<type name="jcolibri.connector.databaseutils.GenericUserType">
+			<param name="className">jcolibri.datatypes.Instance</param>
+		</type>
+	</property>
+	
+   
+    <property name="Realistic" column="Realistic"/>
+    <property name="Investigative" column="Investigative"/>
+	<property name="Artistic" column="Artistic"/>
+  <property name="Social" column="Social"/>
+  <property name="Enterprising" column="Enterprising"/>
+  <property name="Conventional" column="Conventional"/>
+  	
+</class>
+</hibernate-mapping>

@@ -1,0 +1,8 @@
+<DataBaseConfiguration>
+	<HibernateConfigFile>tiCBR/hibernate.cfg.xml</HibernateConfigFile>
+	<DescriptionMappingFile>tiCBR/StudCaseDescription.hbm.xml</DescriptionMappingFile>
+	<DescriptionClassName>tiCBR.StudCaseDescription</DescriptionClassName>
+	<SolutionMappingFile>tiCBR/StudCaseSolution.hbm.xml</SolutionMappingFile>
+	<SolutionClassName>tiCBR.StudCaseSolution</SolutionClassName>
+	
+</DataBaseConfiguration>
